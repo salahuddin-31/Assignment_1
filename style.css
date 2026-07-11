@@ -60,3 +60,57 @@
   position:relative;
   height: 550px;
 }
+  
+.meet_section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    width: 80%;
+    margin:80px auto;
+    max-width: 1200 px;
+}
+.card{
+
+    background:white;
+
+    border-radius:10px;
+
+    overflow:hidden;
+}
+.meet_head{
+  text-align: center;
+  
+}
+
+.secure_card{
+    display: flex;
+    gap: 30px;
+    width: 80%;
+    margin:80px auto;
+    max-width: 1200 px;
+
+}
+.card2{
+   background:white;
+border: #555 ;
+    border-radius:10px;
+
+    overflow:hidden;
+}
+.card3{
+   background:rgb(32, 25, 25);
+border: #555 ;
+    border-radius:10px;
+color: aliceblue;
+    overflow:hidden;
+}
+.button2{
+  padding:14px 30px;
+  background-color:white;
+  color: white;
+  border:blue 2px;
+  border-radius:8px;
+
+  cursor: pointer;
+  font-size: 17px;
+}
