@@ -145,3 +145,24 @@ body{
   margin-top: 80px;
   margin-bottom: 10px;
 }
+.sponsor{
+display: flex;
+justify-content: space-between;
+gap: 2px;
+padding: 50px;
+
+}
+.sponsor img{
+width:200px;
+height:100px
+
+}
+.ftitle{
+  text-align: center;
+  justify-content: center;
+padding: 10px;
+font-size: 40px;
+
+
+
+}
