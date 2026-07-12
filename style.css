@@ -1,12 +1,14 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-.main_head{
+
+.main_head {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,92 +19,103 @@ body{
   margin: 0 auto;
   padding: 20px 0;
 }
-.logo{
+
+.logo {
   display: flex;
   align-items: center;
   gap: 10px;
   font-size: 28px;
   font-weight: bold;
 }
+.logo_text{
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
 
-.head_nav{
+.head_nav {
   list-style: none;
   display: flex;
   justify-content: space-between;
   gap: 35px;
 }
-.head_nav a{
+
+.head_nav a {
   text-decoration: none;
-  color:#555
-  
+  color: #555
 }
-.head_nav a:hover{
+
+.head_nav a:hover {
   color: #2563eb;
 }
 
-.button1{
-  padding:14px 30px;
-  background-color:#2563eb;
+.button1 {
+  padding: 14px 30px;
+  background-color: #2563eb;
   color: white;
   border: none;
-  border-radius:8px;
+  border-radius: 8px;
 
   cursor: pointer;
   font-size: 17px;
 }
 
-.hero{
+.hero {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-direction:column;
-  color:white;
+  flex-direction: column;
+  color: white;
 
- background-image:
-  linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-  url("./assets/banner.jpg");
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("./assets/banner.jpg");
 
   background-size: cover;
   background-position: center;
-  position:relative;
+  position: relative;
   height: 550px;
 }
-.hero h1{
+
+.hero h1 {
   font-size: 50px;
   margin-bottom: 20px;
 }
 
-.hero p{
+.hero p {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 30px;
 }
-.meet_head{
+
+.meet_head {
   text-align: center;
   font-size: 38px;
   margin-top: 80px;
   margin-bottom: 40px;
 }
-  
-.meet_section{
+
+.meet_section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 
   width: 90%;
   max-width: 1200px;
-  margin: 40px 40px;
+  margin: 40px auto;
 }
-}
-.meet_section .card img{
+
+
+.meet_section .card img {
   width: 100%;
   height: 300px;
   object-fit: cover;
   object-position: center top;
   display: block;
 }
-.secure_card{
+
+.secure_card {
   display: flex;
   gap: 30px;
   justify-content: center;
@@ -113,20 +126,21 @@ body{
   margin: 50px auto 80px;
 }
 
-.card{
-    flex:1;
-    background:#fff;
-    border:1px solid #ddd;
-    border-radius:10px;
-    padding:30px;
+.card {
+  flex: 1;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 30px;
 }
 
-.card.active{
-    background:#111827;
-    color:#fff;
-    transform:scale(1.05);
+.card.active {
+  background: #111827;
+  color: #fff;
+  transform: scale(1.05);
 }
-.button2{
+
+.button2 {
   padding: 5px 40px;
   background-color: white;
   color: #2563eb;
@@ -135,33 +149,37 @@ body{
   cursor: pointer;
   font-size: 17px;
 }
-.price_head{
+
+.price_head {
   text-align: center;
   justify-content: center;
 }
-.price_title{
+
+.price_title {
   text-align: center;
   font-size: 38px;
   margin-top: 80px;
   margin-bottom: 10px;
 }
-.sponsor{
-display: flex;
-justify-content: space-between;
-gap: 2px;
-padding: 50px;
+
+.sponsor {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+  padding: 50px;
 
 }
-.sponsor img{
-width:200px;
-height:100px
 
+.sponsor img {
+  width: 200px;
+  height: 100px
 }
-.ftitle{
+
+.ftitle {
   text-align: center;
   justify-content: center;
-padding: 10px;
-font-size: 40px;
+  padding: 10px;
+  font-size: 40px;
 
 
 
